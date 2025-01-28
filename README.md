@@ -59,4 +59,4 @@ If you have enabled logging in your tac_plus-ng.cfg configuration file, all logi
 * **OBT AG** - [obtag](https://github.com/obtag)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/obtag/tac-plus-ng-docker/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/obtag/tac-plus-ng-docker/blob/main/LICENSE) file for details.
