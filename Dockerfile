@@ -34,5 +34,7 @@ RUN wget https://github.com/MarcJHuber/event-driven-servers/archive/refs/heads/m
 # expose port
 EXPOSE 49
 
+HEALTHCHECK --interval=10s CMD nc -z localhost 49
+
 # run tac_plus-ng
 CMD ["/usr/local/sbin/tac_plus-ng", "/usr/local/etc/tac_plus-ng.cfg"]
